@@ -1,0 +1,135 @@
+﻿/* DEFAULTS
+----------------------------------------------------------*/
+/*
+width:718px;
+height:270px;
+
+.zone_rubrique_content, .container_content
+{
+	min-height:520px;
+	height:100%;
+	overflow:visible;
+	float:right;
+	clear:both;
+}*/
+#AnnuaireConteneur
+{
+	width:712px;
+	height:515px;
+	padding:3px;
+	clear:both;
+}
+#AnnuaireConteneur *
+{
+	outline:none;
+}
+#AnnuaireConteneur table
+{
+	float:right;
+	clear:both;
+}
+#AnnuaireConteneur .CritereChoix
+{
+	width:304px;
+	height:20px;
+	margin:5px auto;
+	padding:2px 10px 5px 10px;
+	clear:both;
+}
+#AnnuaireConteneur .CritereChoix span
+{
+	font:bold 16px "Times new roman", Verdana, Tahoma, Arial, Sans serif;
+	color: #666;
+	float:right;
+	width:60px;
+	margin:0px;
+	padding:0px 0px;
+}
+.lAnnuaire
+{
+	width:650px;
+	height:auto;
+	border:1px solid #18609C;
+	outline:#C0C0C0 solid 3px;
+	margin:3px 0px;
+	display:block;
+	float:right;
+	clear:both;
+}
+.lAnnuaireSIR
+{
+	display:block;
+}
+	.lAnnuaire h2
+	{
+		font:normal 18px "Times new roman", Verdana, Tahoma, Arial, Sans serif;
+		background: #5288B5 url('/Style Library/imgs/nav_bg.png') repeat-x right top;
+		color:#fff;
+		width:638px;
+		height:13px;
+		margin:0px 0px 5px 0px;
+		padding:2px 7px 10px 5px;
+		float:right;
+		clear:both;
+		text-align:right;
+	}
+		
+	.lAnnuaire .block
+	{
+		float:right;
+		clear:both;
+		width:640px;
+		padding:2px 5px 2px 5px;
+	}
+	.lAnnuaire .block .divRight
+	{
+		float:right;
+		width:180px;
+		height:110px;
+		margin-left:10px;
+	}
+	.lAnnuaire .block .divRight img
+	{
+		width:180px;
+		height:110px;
+		border:0px;
+	}
+	.lAnnuaire .block .divLeft
+	{
+		float:right;
+		width:420px;
+		padding:0px 5px;
+	}
+	.lAnnuaire .block .divLeftOverflow
+	{
+		width:610px;
+	}
+		.lAnnuaire .block .divLeft .subLigne
+		{
+			width:412.5px;
+			padding:2px 5px 2px 2.5px;
+			text-align:right;
+			font:normal 11px Verdana, Tahoma, Arial, Sans serif;
+			float:right;
+			clear:both;
+			text-align:right;
+		}
+			.lAnnuaire .block .divLeft .subLigne span.formLbl
+			{
+				font:bold 12px Verdana, Tahoma, Arial, Sans serif;
+				float:right;
+				width:110px;
+				margin:0px;
+				padding:0px;
+				text-align:right;
+			}
+			.lAnnuaire .block .divLeft .subLigne p
+			{
+				float:right;
+				width:302.5px;
+				margin:1px 0px;
+				padding:0px;
+				text-align:justify;
+				line-height:16px;
+				text-align:right;
+			}

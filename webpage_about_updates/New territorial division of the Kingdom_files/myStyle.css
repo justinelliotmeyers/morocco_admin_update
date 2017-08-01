@@ -1,0 +1,805 @@
+﻿body   
+{
+    background: #ececec url('/Style Library/imgs/bg.gif') no-repeat fixed center top;
+    font-size: .75em;
+    font-family:  Tahome, Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    color: #696969;
+}
+#wrapper
+{
+    width:100%;
+    height:auto;
+}
+#container
+{
+    width:988px;
+    height:auto;
+    margin:auto;
+}
+
+/*
+======================== override default styles ========================
+*/
+
+/* style plan du site */
+.level-bullet
+{
+	background:none !important;
+}
+/*============================================================= */
+/*============================================================= */
+/*========================= HEAD STYLES ======================= */
+/*============================================================= */
+/*============================================================= */
+    #head
+    {
+        width:100%;
+        height:155px;
+        background:transparent url('/Style Library/imgs/header.gif') no-repeat center top;
+        margin:0;
+        padding:0;
+        text-align:left;
+    }
+        .Hzone1
+        {
+            width:99%;
+            margin-right:5px;
+            height:12px;
+            font:normal 12px Tahoma !important;
+            text-align:right;
+        }
+        .Hzone1 a
+        {
+            width:99%;
+            margin-right:5px;
+            height:12px;
+            font:normal 12px Tahoma !important;
+            text-align:right;
+            color:#18609C !important;
+        }
+
+        .Hzone2
+        {
+            padding:10px;
+            height:84px;
+        }
+            .search
+            {
+                width:30%;
+                float:right;
+                margin:10px 0px;
+            }
+				#searchContent
+				{
+					background:transparent url('/Style Library/imgs/search_bar.png') no-repeat center center;
+					width:220px;
+					height:28px;
+					float:right;
+					clear:both;
+				}
+					#searchContent input#txtSeach
+					{
+						border:0px;
+						padding:0px;
+						width:180px;
+						margin:6px 0px 0 10px;
+						float:right;
+						text-align:left;
+					}
+					#searchContent input#btnSearch
+					{
+						background:transparent url('/Style Library/imgs/ico_search.gif') no-repeat left center;
+						width:15px;
+						height:15px;
+						border:0px;
+						cursor:pointer;
+						float:right;
+						margin:8px 10px 0 0px;
+						padding:0px;
+					}
+            .logo
+            {
+                width:70%;
+                float:left;
+            }
+                .logo img
+                {
+                    float:left;
+                    width:67px;
+                    height:71px;
+                    border:0px;
+                }
+                .logo .Titre
+                {
+                    float:left;
+                    width:550px;
+                    height:71px;
+                    margin:0px 30px;
+                    padding:10px 0px;
+                    text-align:left;
+                }
+                    .logo h3
+                    {
+                        font-size:16px;
+                        line-height:20px;
+                        padding:0px;
+                        margin:0px;
+                    }
+                    .logo h2
+                    {
+                        font-size:20px;
+                        line-height:20px;
+                        color:#28588a;
+                        padding:0px;
+                        margin:0px;
+                    }
+/*============================================================= */
+/*============================================================= */
+/*========================= BODY STYLES ======================= */
+/*============================================================= */
+/*============================================================= */                    
+#body
+{
+    background-color:#fff;
+    width:988px;
+    height:auto;
+	overflow:hidden;
+    margin:0px;
+    padding:0px;
+}
+    #ligne1
+    {
+        width:auto;
+        height:auto;
+        margin:0px;
+        padding-bottom:10px;
+    }
+    /*============================================================= */
+    /*======================== style ligne 1 ====================== */
+    /*============================================================= */
+    #ligne1_sep
+    {
+        /*width:10px !important;*/
+    }
+    #ligne1_left
+    {
+        width:244px !important;
+        vertical-align:top;
+    }
+    #ligne1_right
+    {
+        width:744px !important;
+        vertical-align:top;
+        text-align:left;
+    }
+/* ============================================================================================ */
+/*
+**********************************************************************************************************
+***************** skelette capsule ***********************************************************************
+**********************************************************************************************************
+*/
+.capsule
+{
+    height:auto;
+    margin-bottom:5px;
+}
+.cornerTopRight
+{
+	width:12px !important;
+	height:9px !important;
+}
+.cornerTopLeft
+{
+	width:12px !important;
+	height:9px !important;
+}
+.borderRight
+{
+    width:12px;
+    height:108px;
+    max-height:108px !important;
+}
+.borderLeft
+{
+    width:12px;
+    height:108px;
+    max-height:108px !important;
+}
+.borderTop
+{
+	height:9px !important;
+}
+.cornerTopLeft
+{
+	background: transparent url('/Style Library/imgs/corner_2.gif') no-repeat left bottom;
+}
+.cornerTopRight
+{
+	background: transparent url('/Style Library/imgs/corner_1.gif') no-repeat right bottom;
+}
+.borderLeft
+{
+	background: transparent url('/Style Library/imgs/tr_2.gif') no-repeat left top;
+}
+.borderRight
+{
+	background: transparent url('/Style Library/imgs/tr_1.gif') no-repeat left top;
+}
+.borderTop
+{
+	background: transparent url('/Style Library/imgs/tr_top.gif') repeat-x left bottom;
+}
+/*
+**********************************************************************************************************
+***************** Styles content capsule ******************************************************************
+**********************************************************************************************************
+*/
+.capsule_content
+{
+    border:1px #ccc solid;
+}
+.capsule_head
+{
+    height:30px;
+    background:transparent url('/Style Library/imgs/menu_left_bg.gif') repeat-x right top;
+    text-align:right;
+}
+img.capsule_head_deco_left
+{
+    width:10px;
+	height:29px;
+	float:right;
+}
+h3.capsule_title_ico
+{
+    font:solid 16px 'Arial', Tahoma, Verdana, Arial, Sans Serif;
+    font-size:14px !important;
+    color:#18609C !important;
+	margin:0px 0px 0px 5px;
+	padding:4px 0px 0px 15px;
+	text-align:left;		
+}
+h3.capsule_title_ico11
+{
+    font:solid 16px 'Times New Roman', Tahoma, Verdana, Arial, Sans Serif;
+    color:#18609C !important;
+	margin:0px 0px 0px 5px;
+	padding:4px 0px 0px 0px;
+	text-align:left;		
+}
+
+h3.capsule_title
+{
+    font:solid 18px 'Times New Roman', Tahoma, Verdana, Arial, Sans Serif;
+    color:#18609C !important;
+	margin:0px 0px 0px ;
+	padding:4px 0px 0px 5px;
+	text-align:left;		
+}
+h3.capsule_title1
+{
+    font:normal 20px 'Times New Roman', Tahoma, Verdana, Arial, Sans Serif;
+    color:#18609C !important;
+	margin:0px 0px 0px ;
+	padding:4px 0px 0px 5px;
+	text-align:left;		
+}
+
+h3.capsule_title_ico
+{
+    background:transparent url('/fr/PublishingImages/ico_rub_fr.gif') no-repeat left 5px;
+    margin:2px 0px 0px 5px;
+    padding-right:20px;
+}
+/*
+**********************************************************************************
+***************** Styles menu horizental *****************************************
+**********************************************************************************
+*/
+.capsule_menu_head
+{
+    
+    height:32px;
+    background:transparent url('/Style Library/imgs/tit-portail.gif') no-repeat left center; 
+    text-align:left;
+}
+h3.capsule_menu_title
+{
+    padding:0px 0px 0px 15px;
+    font:normal 24px 'Times New Roman', Tahoma, Verdana, Arial, Sans Serif;
+    color:#fff !important;
+}
+tbody.capsule_menu_body
+{
+    
+}
+tr.bg_menu
+{
+    background:transparent url('/Style Library/imgs/menu_left_bg.gif') repeat-x left bottom;
+    height:30px;
+}
+td.menuHoriz_img
+{
+    width:15px;
+    padding-left:5px;
+    vertical-align:middle;
+}
+td.menuHoriz_lien
+{
+    vertical-align:middle;
+}
+td.menuHoriz_lien a
+{
+    font:normal 13px Tahoma, Arial, Sans Serif;
+    color:#353535 !important;
+    text-decoration:none !important;
+}
+td.menuHoriz_lien a:hover
+{
+    text-decoration:underline;
+}
+
+/*
+*******************************************************************************
+***************** Styles ancien menu *****************************************
+*******************************************************************************
+*/
+
+
+#menuVertical
+{
+    width:218px;
+    text-align:left;
+    clear:both;
+}
+#menuVertical *
+{
+    clear:both;
+}
+    #menuVertical div.racine
+    {
+        /*width:208px;*/
+        padding:5px 0px 0px 8px;
+        height:27px;
+        background:transparent url('/Style Library/imgs/tit-portail.gif') no-repeat left center; 
+        font:normal 20px 'Tw Cen MT Condensed',Times New Roman, Tahoma, Verdana, Arial, Sans Serif;
+        color:#fff;
+    }
+
+    #menuVertical ul.branche
+    {
+        width:100%;
+       /* list-style-image:url('/Style Library/imgs/puce_2_ar.gif');
+        list-style-position: inside;*/
+        margin:0px;
+        padding:0px;
+    }
+        #menuVertical ul.branche li
+        {
+            background:transparent url('/Style Library/imgs/menu_left_bg.gif') repeat-x left center;
+            height:30px;
+            padding:0px 2px 0px 0px;
+            margin:0px;
+                    
+        }
+            #menuVertical ul.branche li a
+            {
+                font:normal 13px/24px Tahoma, Arial, Sans Serif;
+                color:#7d7d7a !important;
+                text-decoration:none;
+                margin-left:5px;
+                word-spacing:normal;
+            }
+            #menuVertical ul.branche li a:hover
+            {
+                text-decoration:underline;
+            }
+
+
+/*
+*******************************************************************************
+***************** Styles liens utiles *****************************************
+*******************************************************************************
+*/
+.capsule_liensUtiles_head
+{
+    
+    height:32px;
+    background:transparent url('/Style Library/imgs/tit-portail.gif') no-repeat left center; 
+    text-align:right;
+}
+h3.capsule_liensUtiles_title
+{
+    padding:0px 15px 0px 0px;
+    font:normal 24px 'Times New Roman', Tahoma, Verdana, Arial, Sans Serif;
+    color:#fff !important;
+}
+tr.bg_liensUtiles
+{
+    background:transparent url('/Style Library/imgs/menu_left_bg.gif') repeat-x left bottom;
+    height:30px;
+}
+td.liensUtiles_img
+{
+    width:15px;
+    padding:5px 3px 0px 5px;
+    vertical-align:middle;
+}
+td.liensUtiles_lien
+{
+    height:25px;
+    padding-top:5px;
+    vertical-align:middle;
+}
+td.liensUtiles_lien a
+{
+    font:normal 12px Tahoma, Arial, Sans Serif;
+    color:#7d7d7a !important;
+    text-decoration:none !important;
+}
+td.liensUtiles_lien a:hover
+{
+    text-decoration:underline !important;
+}
+/*
+*******************************************************************************
+***************** Styles espace perso *****************************************
+*******************************************************************************
+*/
+.espacePerso_topPadding
+{
+    height:5px;
+}
+.espacePerso_libelle
+{
+    width:auto;
+    height:25px;
+    padding:5px 0px 0px 10px;
+    font:bold 11px Tahoma;
+    color:#000 !important;
+	text-align:left;
+}
+.espacePerso_txtbox
+{
+    height:25px;
+    text-align:left;
+}
+.espacePerso_txtbox input
+{
+    width:100px;
+    text-align:left;
+}
+.btnEspacePerso
+{
+    height:25px;
+    padding:3px 10px 2px 0px;
+}
+/*
+**********************************************************************************************************
+***************** skelette SLIDER ***********************************************************************
+**********************************************************************************************************
+*/
+.capsule_slider
+{
+    width:744px;
+    margin-bottom:3px;
+}
+.capsule_slider_content
+{
+    width:718px !important;
+}
+/*
+**********************************************************************************************************
+***************** Accueil content style ***********************************************************************
+**********************************************************************************************************
+*/
+#accueil_content
+{
+    width:744px;
+}
+td#col1
+{
+    width:500px;
+    vertical-align:top;
+}
+td#col2
+{
+    width:auto;
+    vertical-align:top;
+}
+td.col_content
+{
+    text-align:center;
+    height:auto;
+}
+h3.capsule_gdtitre
+{
+    margin:0px 0px;
+    color:#F0A400 !important;
+    font-size:18px !important;
+    font-weight:bold !important;
+    text-align:left;
+
+}
+    h3.capsule_gdtitre a
+    {
+        color:#F0A400 !important;
+        font-size:14px !important;
+        text-align:justify !important;
+              
+    }
+.capsule_para
+{
+    margin:1px 0px 0px 0px;
+    font-size:13px !important;
+    font-family:Tahoma !important;
+    color:#000 !important;
+    text-align:justify;
+}
+	p.capsule_para a
+	{
+		color:#000 !important;
+	}
+hr.ligne_horizental
+{
+    height:1px;
+    border:0px;
+    background:#000;
+}
+td.anchor_plus
+{
+    padding:0px 0px 0px 5px;
+    text-align:right;
+    vertical-align:bottom !important;
+}
+td.capsule_fermeture
+{
+	vertical-align:bottom !important;
+	height:8px;
+    background:transparent url('/Style Library/imgs/menu_left_bg.gif') repeat-x left -13px;
+}
+/*
+======================= Actualités ==================
+*/
+.TitreArticle
+{
+	font:bold 13px Tahoma;
+	color:#056B82;
+}
+td.col_actu_img
+{
+    padding:14px 5px 5px 5px;
+    text-align:right;
+}
+td.col_actu_txt
+{
+    padding:0px 2px 0px 2px;
+    text-align:left;
+}
+td.list_sub
+{
+    padding:5px 0px 5px 5px;
+    
+    text-align:left;
+    vertical-align:top;
+    /*text-align:justify !important;*/
+}
+td.list_sub a
+{
+/* ELKHAL */
+    /*color:#000 !important;*/
+    color: #F0A400 !important;
+  /*  font-family: Tahoma;*/
+    font-weight: bold !important;
+    font-size:13px !important;
+
+    }
+p.list_sub_para
+{
+    margin:2px 0px Opx 5px;
+    padding-left:20px;
+    font-size:16px;
+    color:#000 !important;
+    text-align:left;
+    background:transparent url('/fr/PublishingImages/ico_news_fr.gif') no-repeat 0% top;
+}
+/*
+======================= Agenda ==================
+*/
+td.list_sub2
+{
+    background:transparent url('/Style Library/imgs/ico_calendar.gif') no-repeat 1% 2px;
+    padding:0px 5px 0px 20px;
+    text-align:left;
+    vertical-align:top;
+
+}
+td.list_sub2 a
+{
+    color:#000 !important;
+}
+span.agenda_date
+{
+	font-family: Tahoma;
+    margin:5px;
+    color:#F0A400 !important;
+      /*#A0A0A0*/
+      font-size:13px !important;
+      font-weight:bold !important;
+}
+
+/*
+======================= Map ==================
+*/
+.map
+{
+	color:#fff !important;
+	font:normal 14px Tahoma;
+}
+.map a
+{
+	color:#fff !important;
+	font:normal 14px Tahoma;
+	padding:0px 0px 0px 8px;
+}
+.map_current
+{
+	font:normal 14px Tahoma;
+
+}
+/*
+=======================================================
+======================= Page content ==================
+=======================================================
+*/
+
+.page_title
+{
+    font:normal 22px 'Times New Roman', Tahoma, Verdana, Arial, Sans Serif;
+    color:#F0A400 !important;
+	margin:0px 0px 0px 10px;
+	padding:3px 0px 0px 0px;
+	text-align:left;
+	float:left;		
+}
+
+.capsule_img_taille_fix
+{	
+	height:108px !important;
+	width:220px/*100%*/ !important;
+}
+.para_taille_fixe
+{
+	height:64px !important;
+	overflow:hidden !important;
+}
+.capsule_taille_fixe
+{
+	height:260px !important;
+	overflow:hidden !important;
+}
+.capsuleLeft_taille_fixe
+{
+	height:260px !important;
+	overflow:hidden !important;
+}
+.capsule_taille_fixe_L2
+{
+	height:126px !important;
+	overflow:hidden !important;
+}
+
+/* ========================================================================================== */
+/* ========================FOOTER================================= */
+/* ========================================================================================== */
+
+#footer
+{
+	background-color:#fff;
+	width:100%;
+	padding:5px auto 0px auto;
+}
+#footer .borderTop
+{
+	background:transparent url('/Style Library/imgs/bg-footer.gif') repeat-x right top;
+	height:10px;
+	width:100%;
+	clear:both;
+}
+#footer .footer_content
+{
+	width:900px;
+	margin:5px auto 0px auto;
+	height:30px;
+	text-align:center;
+	vertical-align:middle;
+}
+#footer .footer_content ul
+{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	width:100%;
+	height:20px;
+}
+#footer .footer_content ul li
+{
+	display:inline;
+	padding:3px 0px;
+}
+#footer .footer_content ul li a
+{
+	padding:0px 10px;
+	font-size:12px;
+	font-weight:bold;
+	color:#444 !important;
+	text-decoration:none;
+}
+#footer .footer_content ul li a:hover
+{
+	color:#18609C !important;
+	text-decoration:underline !important;
+}
+#footer .copyright
+{
+    font-size:10px;
+	height:18px;
+	margin-top:5px;
+	clear:both;
+	text-align:center;
+	vertical-align:middle;
+}
+/* ========================================================================================== */
+/* ========================New text style================================= */
+/* ========================================================================================== */
+.texte_content
+{
+    margin:5px;
+    font-size:16px;
+    color:#000;
+    text-align:right;
+}
+.texte_content2
+{
+	padding-right:20px;
+    font-size:16px;
+    color:#000;
+    text-align:right;
+}
+.texte_content_bold
+{
+    color:#000;
+    text-align:right;
+	font-weight:bold;
+}
+.texte_title
+{
+    margin:5px;
+    font-size:18px;
+    color:#0568b2;
+    text-align:right;
+}
+/*=========================Style pour xsl page ============================================*/
+.ms-gbDG
+{
+ height:22px;
+  color:#0568b2;
+ background-color:#ffffff;
+ font-weight:bold;
+ border-top:1px solid #f9f9f9;
+ padding-bottom:3px;
+ font-size:13px;
+}
+
+/*=========================================================================================*/
+td.ms-gb{
+ border-bottom-style: none !important;
+}
+td.ms-alternating {
+    background-color:#FFFFFF!important;
+}
+.ms-alternating {
+    background-color:#FFFFFF!important;
+}
